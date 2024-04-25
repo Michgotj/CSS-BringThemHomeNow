@@ -1,0 +1,201 @@
+.cloud-base {
+  width: 175px;
+  height: 60px;
+  background: #f2f9fe;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(5%, #f2f9fe),
+    color-stop(100%, #d6f0fd)
+  );
+  background: linear-gradient(
+    90deg,
+    #f2f9fe 0%,
+    #dfe8f7 25%,
+    #c8d9ed 50%,
+    #acc2db 75%,
+    #92aad0 100%
+  );
+  position: relative;
+  margin: 0px 0 0 360px;
+  border-radius: 50px;
+  -webkit-animation: mover 3.5s infinite alternate;
+  animation: mover 3.5s infinite alternate;
+  z-index: 4;
+  margin-top: 50px;
+}
+
+.cloud-base:after,
+.cloud-base:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    #f2f9fe 0%,
+    #dfe8f7 25%,
+    #c8d9ed 50%,
+    #acc2db 75%,
+    #92aad0 100%
+  );
+}
+
+.cloud-base:after {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  top: -25px;
+  left: 25px;
+}
+
+.cloud-base:before {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  top: -45px;
+  right: 25px;
+}
+
+.shadow {
+  width: 175px;
+  position: absolute;
+  bottom: -80px;
+  background: black;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.4);
+}
+
+.rain {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  color: #002266;
+}
+
+.drop {
+  position: absolute;
+  background: linear-gradient(#000000, #ffffff);
+  opacity: 2;
+  top: 25px;
+}
+
+.drop1 {
+  left: 97%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.94s linear 0.69s infinite;
+}
+
+.drop2 {
+  left: 18%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.98s linear 0.57s infinite;
+}
+
+.drop3 {
+  left: 38%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.66s linear 0.6s infinite;
+}
+
+.drop4 {
+  left: 64%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.69s linear 0.76s infinite;
+}
+
+.drop5 {
+  left: 95%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.75s linear 0.56s infinite;
+}
+
+.drop6 {
+  left: 65%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.75s linear 0.92s infinite;
+}
+
+.drop7 {
+  left: 19%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.92s linear 0.72s infinite;
+}
+
+.drop8 {
+  left: 55%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.84s linear 0.99s infinite;
+}
+
+.drop9 {
+  left: 35%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.79s linear 0.53s infinite;
+}
+
+.drop10 {
+  left: 83%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.82s linear 0.97s infinite;
+}
+
+.drop11 {
+  left: 8%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.75s linear 0.56s infinite;
+}
+
+.drop12 {
+  left: 1%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.6s linear 0.59s infinite;
+}
+
+.drop13 {
+  left: 13%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.5s linear 0.5s infinite;
+}
+
+.drop14 {
+  left: 13%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.8s linear 0.63s infinite;
+}
+
+.drop15 {
+  left: 13%;
+  width: 1%;
+  height: 5%;
+  animation: fall 0.68s linear 0.75s infinite;
+}
+
+@-webkit-keyframes fall {
+  to {
+    margin-top: 150px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall {
+  to {
+    margin-top: 150px;
+    opacity: 0;
+  }
+}
