@@ -2,9 +2,10 @@
   position: absolute;
   width: 100px;
   z-index: 2;
-}
-.ruined-building1 {
   bottom: -300px;
+}
+
+.ruined-building1 {
   left: 30%;
   transform: translateX(900%);
   height: 118px;
@@ -13,7 +14,6 @@
 }
 
 .ruined-building2 {
-  bottom: -300px;
   left: 20%;
   transform: translateX(800%);
   height: 200px;
@@ -22,7 +22,6 @@
 }
 
 .ruined-building3 {
-  bottom: -300px;
   left: 10%;
   transform: translateX(700%);
   height: 130px;
@@ -31,7 +30,6 @@
 }
 
 .ruined-building4 {
-  bottom: -300px;
   left: 8%;
   transform: translateX(800%);
   height: 140px;
@@ -40,7 +38,6 @@
 }
 
 .ruined-building5 {
-  bottom: -300px;
   left: 10%;
   transform: translateX(1160%);
   height: 170px;
@@ -49,7 +46,6 @@
 }
 
 .ruined-building6 {
-  bottom: -300px;
   left: 4%;
   transform: translateX(1100%);
   height: 114px;
@@ -77,7 +73,6 @@
 }
 
 .ruined-building9 {
-  bottom: -300px;
   left: -300%;
   transform: translateX(1150%);
   height: 125px;

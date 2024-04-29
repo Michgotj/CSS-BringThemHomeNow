@@ -16,7 +16,6 @@
   animation: scaleUpDown 3s ease-out;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
-
   .main-fire {
     position: absolute;
     width: 100%;
@@ -30,7 +29,6 @@
     border-radius: 0 40% 60% 40%;
     filter: drop-shadow(0 0 10px #d43322);
   }
-
   .particle-fire {
     position: absolute;
     top: 60%;
@@ -53,7 +51,6 @@
   animation: shake 2s ease-out 0;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
-
   .main-fire {
     position: absolute;
     top: 15%;
@@ -65,7 +62,6 @@
     border-radius: 0 40% 60% 40%;
     filter: drop-shadow(0 0 10px #d43322);
   }
-
   .particle-fire {
     position: absolute;
     top: 45%;
@@ -89,7 +85,6 @@
   animation: shake 3s ease-out 0;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
-
   .main-fire {
     position: absolute;
     top: 15%;
@@ -101,7 +96,6 @@
     border-radius: 0 40% 60% 40%;
     filter: drop-shadow(0 0 10px #d43322);
   }
-
   .particle-fire {
     position: absolute;
     top: 10%;
