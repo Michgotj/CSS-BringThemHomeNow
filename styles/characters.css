@@ -554,7 +554,7 @@
 
 .teddy {
   font-size: calc(50vmin / 260);
-  transform: scale(0.2) translate(2200px, 1700px) rotate(110deg);
+  transform: scale(0.2) translate(-2000px, 1300px) rotate(110deg);
   position: relative;
   margin: auto;
   width: 260em;

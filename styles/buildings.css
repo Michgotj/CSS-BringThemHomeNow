@@ -38,7 +38,7 @@
 }
 
 .ruined-building5 {
-  left: 10%;
+  left: -200px;
   transform: translateX(1160%);
   height: 170px;
   background: linear-gradient(to left, #808080 20%, #4d4d4d 50%, #1a1a1a 80%);
