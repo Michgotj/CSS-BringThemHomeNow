@@ -11,25 +11,25 @@ body {
   left: 0;
   top: 390px;
   width: 100%;
-  height: 5%;
+  height: 50vh;
   background: linear-gradient(to bottom, #826b54, #8b5a2b, #745034);
   z-index: 1;
 }
 
 .sky {
-  position: absolute;
+  position: fixed; /* Use fixed positioning to cover the entire viewport */
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 50%;
+  width: 100%; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
   background: linear-gradient(to bottom, #87ceeb, #4682b4, #708090);
-  z-index: -1;
+  z-index: -1; /* Ensure the sky is behind other content */
 }
 
 .moon {
-  position: absolute;
+  position: relative;
   top: 10%;
-  right: 10%;
+  left: 80%;
   width: 100px;
   height: 100px;
   background-color: #f0f8ff;
@@ -39,8 +39,7 @@ body {
 }
 
 .rainbow {
-  position: absolute;
-  left: -500px;
+  position: relative;
   top: 120px;
   width: 700px;
   height: 50px;
@@ -54,18 +53,16 @@ body {
     orange 85%,
     red 100%
   );
-  z-index: 10;
   opacity: 0.6;
-  transform: translateY(-50%) skewY(-46deg);
+  transform: translate(-30%) skewY(-46deg);
 }
 
 .under-ground {
-  position: absolute;
-  bottom: -1100px;
-  left: -400px;
-  width: 2855px;
-  height: 800px;
+  position: fixed;
+  bottom: -410px;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to bottom, #4d3319 20%, #663300 50%, #4d3319 80%);
-  z-index: 2;
+  z-index: 5;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }

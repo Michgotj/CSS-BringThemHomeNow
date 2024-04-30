@@ -1,18 +1,21 @@
 .tunnel {
-  position: absolute;
-  bottom: -1100%;
-  left: 380%;
-  transform: translateX(-50%);
-  width: 800px;
-  height: 300px;
+  position: relative;
+  right: 0;
+  margin-top: 330px;
+  transform: translateX(100%);
+  width: 700px;
+  height: 240px;
   border-radius: 20px;
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
-  z-index: 4;
+  z-index: 8;
 }
 
+user agent stylesheet div {
+  display: block;
+}
 .tunnel::before {
   content: "";
-  position: absolute;
+  position: fixed;
   bottom: -10px;
   left: -10px;
   width: calc(100% + 20px);
@@ -21,15 +24,14 @@
   border-radius: 30px;
   z-index: -1;
 }
-
 .tunnel::after {
   content: "";
   position: absolute;
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
-  width: 800px;
-  height: 40px;
+  width: 700px;
+  height: 20px;
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.5),
@@ -43,7 +45,10 @@
 .tunnel-shaft {
   width: 140px;
   height: 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.1)
+  ); /* Darker at the bottom */
   border-radius: 40%;
   overflow: hidden;
   position: relative;
@@ -57,7 +62,11 @@
   position: absolute;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.5)
+  ); /* Fade to transparent */
 }
 
 .tunnel-shaft:before {

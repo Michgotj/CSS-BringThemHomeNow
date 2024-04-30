@@ -18,12 +18,10 @@
     #92aad0 100%
   );
   position: relative;
-  margin: 0px 0 0 360px;
   border-radius: 50px;
   -webkit-animation: mover 3.5s infinite alternate;
   animation: mover 3.5s infinite alternate;
   z-index: 4;
-  margin-top: 50px;
 }
 
 .cloud-base:after,

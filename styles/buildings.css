@@ -1,90 +1,49 @@
 .shared-building {
-  position: absolute;
+  position: relative;
   width: 100px;
   z-index: 2;
-  bottom: -300px;
 }
 
 .ruined-building1 {
-  left: 30%;
-  transform: translateX(900%);
+  right: 50%;
+  bottom: 50px;
+  transform: translateX(1200%) rotate(-10deg);
   height: 118px;
   background: linear-gradient(to left, #3a3a3a 20%, #4d4d4d 50%, #1a1a1a 80%);
   clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 80%);
 }
 
 .ruined-building2 {
-  left: 20%;
-  transform: translateX(800%);
+  transform: translateX(1000%);
   height: 200px;
+  bottom: 270px;
   background: linear-gradient(to left, #808080 20%, #4d4d4d 50%, #1a1a1a 80%);
   clip-path: polygon(0% 20%, 22% 0%, 100% 100%, 0% 80%);
 }
 
 .ruined-building3 {
-  left: 10%;
-  transform: translateX(700%);
+  left: 1%;
+  bottom: 350px;
+  transform: translateX(1000%) rotate(23deg);
   height: 130px;
   background: linear-gradient(to left, #808080 20%, #4d4d4d 50%, #1a1a1a 80%);
   clip-path: polygon(0% 20%, 80% 0%, 100% 50%, 0% 80%);
 }
 
 .ruined-building4 {
-  left: 8%;
-  transform: translateX(800%);
+  right: 100%;
+  bottom: 514px;
+  transform: translateX(1100%) rotate(-4deg);
   height: 140px;
   background: linear-gradient(to left, #2a2626 20%, #4d4d4d 50%, #1a1a1a 80%);
   clip-path: polygon(0% 20%, 90% 0%, 100% 90%, 0% 80%);
 }
 
 .ruined-building5 {
-  left: -200px;
-  transform: translateX(1160%);
+  right: 280px;
+  bottom: 620px;
+  transform: translateX(1340%) rotate(47deg);
   height: 170px;
   background: linear-gradient(to left, #808080 20%, #4d4d4d 50%, #1a1a1a 80%);
   clip-path: polygon(0% 20%, 22% 0%, 100% 20%, 0% 80%);
-}
-
-.ruined-building6 {
-  left: 4%;
-  transform: translateX(1100%);
-  height: 114px;
-  background: linear-gradient(to left, #2f2d2d 20%, #4d4d4d 50%, #1a1a1a 80%);
-  clip-path: polygon(0% 20%, 22% 0%, 100% 60%, 0% 80%);
-}
-
-.ruined-building7 {
-  bottom: -250px;
-  left: -50%;
-  transform: translateX(1070%);
-  height: 100px;
-  background: linear-gradient(to left, #808080 20%, #4d4d4d 50%, #858484 80%);
-  clip-path: polygon(0% 20%, 22% 0%, 80% 20%, 0% 80%);
-  z-index: 1;
-}
-
-.ruined-building8 {
-  bottom: -360px;
-  left: -140%;
-  transform: translateX(950%);
-  height: 400px;
-  background: linear-gradient(to top, #2f2d2d 20%, #4d4d4d 50%, #1a1a1a 80%);
-  clip-path: polygon(0% 30%, 22% 0%, 100% 80%, 0% 80%);
-}
-
-.ruined-building9 {
-  left: -300%;
-  transform: translateX(1150%);
-  height: 125px;
-  background: linear-gradient(to top, #2f2d2d 20%, #4d4d4d 50%, #1a1a1a 80%);
-  clip-path: polygon(0% 20%, 90% 0%, 100% 90%, 0% 80%);
-}
-
-.ruined-building10 {
-  bottom: -330px;
-  left: -50%;
-  transform: translateX(1000%);
-  height: 130px;
-  background: linear-gradient(to top, #2f2d2d 20%, #4d4d4d 50%, #1a1a1a 80%);
-  clip-path: polygon(0% 20%, 22% 0%, 100% 60%, 0% 80%);
 }
