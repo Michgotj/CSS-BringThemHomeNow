@@ -2,4 +2,4 @@ In this CSS project, I depicted the horrors faced by Ariel and Kfir Bibi, who ha
 
 To view the project, open the index.html file and click on "Open in Chrome" or "Open in Firefox" to see the content.
 
-![Alt Text](/PreviewVideo/BringThemHomeNow.gif)
+           ![Alt Text](/PreviewVideo/BringThemHomeNow.gif)
