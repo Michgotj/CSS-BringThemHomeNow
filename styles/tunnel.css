@@ -45,12 +45,8 @@ user agent stylesheet div {
 .tunnel-shaft {
   width: 140px;
   height: 30px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.1)
-  ); /* Darker at the bottom */
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
   border-radius: 40%;
-  overflow: hidden;
   position: relative;
   top: -59px;
   left: -80%;
@@ -62,11 +58,7 @@ user agent stylesheet div {
   position: absolute;
   width: 50%;
   height: 100%;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(0, 0, 0, 0.5)
-  ); /* Fade to transparent */
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
 }
 
 .tunnel-shaft:before {
