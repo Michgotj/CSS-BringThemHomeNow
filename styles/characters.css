@@ -361,13 +361,13 @@
 }
 
 .baby {
-  margin: -350px 0 0 1265px;
+  margin: -150px 0 0 1265px;
   width: 86px;
   height: 180px;
   background: linear-gradient(45deg, #d9a073 30%, #7f5834 50%, #422c17 70%);
   border-radius: 43px;
   overflow: hidden;
-  position: fixed;
+  position: relative;
   transform: scale(0.5) rotate(40deg);
   z-index: 999;
 }
@@ -553,10 +553,9 @@
 }
 
 .teddy {
+  position: fixed;
   font-size: calc(50vmin / 260);
-  transform: scale(0.2) translate(-2000px, 1300px) rotate(110deg);
-  position: relative;
-  margin: auto;
+  transform: scale(0.123) translate(1400%, -520%) rotate(110deg);
   width: 260em;
   height: 330em;
   z-index: 11;

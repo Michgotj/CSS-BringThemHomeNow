@@ -1,8 +1,8 @@
 .ladder {
-  position: relative;
+  position: fixed;
   width: 50px;
   height: 200px;
-  top: -280px;
+  top: 450px;
   left: 800px;
   z-index: 11;
 }
